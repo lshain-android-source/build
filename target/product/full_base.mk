@@ -47,8 +47,7 @@ PRODUCT_PROPERTY_OVERRIDES := \
     ro.config.notification_sound=pixiedust.ogg
 
 # Put en_US first in the list, so make it default.
-#PRODUCT_LOCALES := en_US
-PRODUCT_LOCALES := zh_CN
+PRODUCT_LOCALES := en_US
 
 # Include drawables for all densities
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi xxhdpi
